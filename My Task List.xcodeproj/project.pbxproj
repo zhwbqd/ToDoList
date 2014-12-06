@@ -14,6 +14,7 @@
 		05C524B21A32CBBB0085EB6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C524B11A32CBBB0085EB6F /* Images.xcassets */; };
 		05C524B51A32CBBB0085EB6F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05C524B31A32CBBB0085EB6F /* LaunchScreen.xib */; };
 		05C524C11A32CBBB0085EB6F /* My_Task_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C524C01A32CBBB0085EB6F /* My_Task_ListTests.swift */; };
+		05C524CD1A32CCB60085EB6F /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C524CC1A32CCB60085EB6F /* TaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		05C524BA1A32CBBB0085EB6F /* My Task ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Task ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05C524BF1A32CBBB0085EB6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05C524C01A32CBBB0085EB6F /* My_Task_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Task_ListTests.swift; sourceTree = "<group>"; };
+		05C524CC1A32CCB60085EB6F /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				05C524B11A32CBBB0085EB6F /* Images.xcassets */,
 				05C524B31A32CBBB0085EB6F /* LaunchScreen.xib */,
 				05C524A61A32CBBB0085EB6F /* Supporting Files */,
+				05C524CC1A32CCB60085EB6F /* TaskManager.swift */,
 			);
 			path = "My Task List";
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				05C524AD1A32CBBB0085EB6F /* SecondViewController.swift in Sources */,
 				05C524A91A32CBBB0085EB6F /* AppDelegate.swift in Sources */,
+				05C524CD1A32CCB60085EB6F /* TaskManager.swift in Sources */,
 				05C524AB1A32CBBB0085EB6F /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "My Task List/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "My Task List/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -409,6 +415,7 @@
 				05C524C61A32CBBB0085EB6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05C524C71A32CBBB0085EB6F /* Build configuration list for PBXNativeTarget "My Task ListTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +424,7 @@
 				05C524C91A32CBBB0085EB6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
